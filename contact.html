@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact Us</title>
+
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./css/masterstyles.css">
+<link rel="icon" href="./img/ying_yang.gif">
+</head>
+
+<body>
+	<div class="container">
+		<div class="wrapper">
+		<header class="title">
+		</div>
+		
+		<nav class="nav">
+			<ul>
+				<li><a href="#">men</a></li>
+				<li><a href="#">women</a></li>
+				<li><a href="#">accessories</a></li>
+				<li><a href="./products.html">footwear</a></li>
+				<li><a href="./about.html">about</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+		</nav>
+		
+		<aside class="menu">
+			<ul class="sidebar-nav">
+				<li><a href="./home.html">home</a></li>
+				<li><a href="./about.html">about</a></li>
+				<li><a href="./gallery.html">products</a></li>
+				<li><a href="./contact.html">contact</a></li>
+				<li><a href="./login.html">log out</a></li>
+			</ul>
+		</aside>
+		
+		<section class="main">
+			<h2>CONTACT US</h2>
+			
+			
+			<div class="contact">
+			
+				<label for="firstname">First Name</label>
+				<input class="f_name" type="text" id="firstname">
+				<label for="lastname">Last Name</label>
+				<input class="l_name" type="text" id="lastname">
+				<label for="email">E-mail</label>
+				<input class="e_mail" type="text" id="email">
+				<label for="message">How can we help you?</label>
+				<textarea class="message" rows="5"></textarea>
+				<!--<input class="button" type="submit" value="Login" style="float:right;">!-->
+				<button onclick="submit()" id="submit" class="submitbutton" style="float:right;">Submit</button>
+				
+			</div>
+		</section>
+		
+		<footer class="copyright">
+			&copy; ADLC & IK 2017
+		</footer>
+		
+		</div>
+	</div>
+	
+	<script>
+		function submit ()
+		{
+			location.href='./home.html'
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,302 @@
+	*
+	{
+		margin:0;
+		padding:0;
+	}
+	body
+	{
+		/*background-color:aqua;*/
+		font-family: 'Lora', serif;
+		font-size:12px;
+		/*background-image:url('./img/invert.jpg');
+		background-position:center center;*/
+	}
+	.container
+	{
+		/*background-color:burlywood;*/
+		width:70%;
+		margin:0 auto;
+	}
+	.title
+	{
+		/*background-color:aquamarine;*/
+		background-image:url('../img/header.png');
+		background-position: center center;
+		background-repeat: no-repeat;
+		width:100%;
+		height:160px;
+	}
+	.nav
+	{
+		width:98%;
+		padding:1%;
+		height:25px;
+	}
+
+	aside.menu
+	{
+		/*background-color:coral;*/
+		width:18%;
+		padding:1%;
+		height:350px;
+		float:left;
+	}
+	aside.menu2
+	{
+		/*background-color:coral;*/
+		width:18%;
+		padding:1%;
+		height:80%;
+		float:left;
+	}
+
+	section.main
+	{
+		/*background-color:salmon;*/
+		width:78%;
+		padding:1%;
+		height:auto;
+		float:right;
+	}
+	section.main2
+	{
+		/*background-color:salmon;*/
+		width:58%;
+		padding:1%;
+		height:80%;
+		float:left;
+	}
+
+	section.main3
+	{
+		/*background-color:salmon;*/
+		width:98%;
+		padding:1%;
+		height:auto;
+		float:right;
+	}
+	div.about
+	{
+		width:88%;
+		padding:1%;
+		height:auto;
+		margin:auto auto;
+		text-align:justify;
+	}
+	.about p
+	{
+		padding:10px;
+		text-indent:50px;
+	}
+	aside.recent
+	{
+		/*background-color:coral;*/
+		width:18%;
+		padding:1%;
+		float:right;
+	}
+	footer.copyright
+	{
+		width:98%;
+		padding:1%;
+		height:20px;
+		text-align: center;
+		clear:both;
+	}
+	.nav ul
+	{
+		list-style-type: none;
+	}
+	.nav li
+	{
+		display:table-cell;
+		width:20%;
+	}
+	.nav a
+	{
+		text-decoration:none;
+		color:#434343;
+		display:block;
+		font-size:15px;
+	}
+	.nav a:hover
+	{
+		font-weight: bold;
+	}
+	.menu ul
+	{
+		list-style-type: none;
+	}
+	.menu2 ul
+	{
+		list-style-type: none;
+	}
+	.sidebar-nav li
+	{
+		height:30px;
+	}
+	ul.sidebar-nav a
+	{
+		text-decoration:none;
+		margin:8px 20px;
+		display:block;
+		color:#434343;
+		font-size:15px;
+	}
+	.sidebar-nav a:hover
+	{
+		font-weight:bold;
+	}
+	.main a
+	{
+		text-decoration:none;
+		color:#434343;
+	}
+	.main3 a
+	{
+		text-decoration:none;
+		color:#434343;
+	}
+	.footwear img
+	{
+		width:200px;
+		height:200px;
+	}
+	.recent img
+	{
+		width:100%;
+	}
+	table.footwear
+	{
+		width:100%;
+	}
+	table.footwear h2
+	{
+		font-size:14px;
+		font-style:italic;
+	}
+
+	.contact
+	{
+	margin: 0 auto;
+	text-align:left;
+	width:330px;
+	padding:10px;
+	font-size:16px;
+	}
+	label
+	{
+		font-size:12px;
+	}
+	.f_name, .l_name, .e_mail
+	{
+		margin:5px;
+		padding:5px;
+		height:15px;
+		border-radius:5px;
+		font-size:12px;
+		width:340px;
+	}	
+	 .message
+	{ 
+		margin:auto;
+		width:350px;
+		height:200px;
+	}
+
+	button.grid-button 
+	{   
+		padding:3px; 
+		margin-bottom:5px;
+		border:1px solid black;
+		height:24px;
+    	cursor:pointer;
+		background-color:transparent;
+    	-webkit-border-radius: 5px;
+    	border-radius: 5px; 
+		font-size:12px;
+		float:right;
+    }
+	#submit
+	{
+		padding:3px; 
+		border:1px solid black;
+		height:24px;
+    	cursor:pointer;
+		background-color:transparent;
+    	-webkit-border-radius: 5px;
+    	border-radius: 5px; 
+		font-size:12px;
+	}
+
+	.grid img
+	{
+		width:200px;
+		height:200px;
+	}
+	table.grid
+	{
+		width:100%;
+		border: 2px solid;
+	}
+	table.grid tr td {
+		border: 1px solid;
+		padding:5px;
+	}
+    button.gallery-button {
+        padding:3px; 
+		margin-bottom:5px;
+		border:1px solid black;
+		height:24px;
+    	cursor:pointer;
+		background-color:transparent;
+    	-webkit-border-radius: 5px;
+    	border-radius: 5px; 
+		font-size:12px;
+		float:right;
+    }
+	.shoes
+	{
+		width:130px;
+	}
+	img.store
+	{
+		width:100%;
+	}
+
+    div.login-form {
+        width:300px;
+        height: 250px;
+        margin: 20px auto 0;
+        border-radius:7px;
+        padding:20px;
+    }
+    h1.login-h1 {
+		margin-bottom:15px;
+    }
+	input.login-input {
+        width:100%;
+        padding:5px 2px;
+        border-radius: 5px;
+        margin:7px 0;
+    }
+    button.login-button {
+        padding:5px 15px;
+		border-radius:7px;
+		float:right;
+		background-color:transparent;
+    }
+    p.error-message{
+        display:none;
+        height: 20px;
+        padding:5px;
+        width:100%;
+        color:#fff;
+        background-color:red;
+        border: 1px solid black;
+        border-radius:5px;
+    }
+	.error-message
+	{
+		margin-top:40px;
+	}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome</title>
+
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./css/masterstyles.css">
+<link rel="icon" href="./img/ying_yang.gif">
+</head>
+
+<body>
+	<div class="container">
+		<div class="wrapper">
+		<header class="title">
+		</div>
+			
+        <div class="login-form">
+            <h1 class="login-h1"> Login</h1>
+            <label for="username">Username</label>
+            <input class="login-input" type="text" id="username">
+            <label for="password">Password</label>
+            <input class="login-input" type="password" id="password">
+            <button onclick="login()" class="login-button btn btn-primary" id="btn-login" >Login</button>
+            <div id="error-container">
+                <p class="error-message" id="error-text"> Invalid Login </p>
+            </div>
+        </div>
+		
+		<footer class="copyright">
+			&copy; ADLC & IK 2017
+		</footer>
+		<script>
+            function login() {
+            
+                let username = document.getElementById('username').value;
+                let password = document.getElementById('password').value;
+                let errorContainer = document.getElementById('error-container');
+                let errorText = document.getElementById('error-text');
+                if(username == 'ishkaran' && password == 'kaur') {
+                    location.href = './home.html';
+                } else {
+                    errorContainer.style.display = 'block';
+                    errorText.style.display = 'block';
+                    errorText.innerHTML = 'Error. Wrong username or password.';
+                    let handle = setInterval(() => {
+                        errorContainer.style.display = 'none';
+                    clearInterval(handle);
+                },2000);
+            }
+            //alert(password);
+            }
+		</script>
+		</div>
+	</div>
+</body>
+</html>
